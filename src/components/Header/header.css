@@ -1,0 +1,27 @@
+.nav-container {
+  height: 20vh;
+  width: 100%;
+  background-color: #000a;
+}
+
+.nav-menu {
+  /*despues lo vemos*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu-img {
+  width: 200px;
+  height: 100px;
+}
+
+.nav-menu-list {
+  display: flex;
+  width: 50%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  color: #fff;
+}
