@@ -1,21 +1,37 @@
 import React from 'react';
+import { useState } from 'react';
+
 import './header.css';
+import './mediaQuerys.css'
+
+import MenuIcon from './MenuIcon';
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false)
+
+  const handleClick = () => {
+    setOpen(!open)
+  }
+
   return (
-    <div>
-      <nav className='nav-container'>
+    <header>
+      <nav nav className='nav-container' >
         <div className='nav-menu'>
-          <img className='nav-menu-img' src="" alt="" />
-          <ul className='nav-menu-list'>
-            <li>Servicios</li>
-            <li>Valores</li>
-            <li>Nosotros</li>
-            <li>Contacto</li>
+          <div className='nav-menu-box'>
+            <h1 className='nav-menu-title'>Boschetti Bordoni</h1>
+            <img className='nav-menu-img' src="" alt="" />
+          </div>
+          <MenuIcon open={open} handleClick={handleClick} />
+          <ul className={`nav-menu-list ${open ? 'menu-open' : ''}`}>
+            <li><a href='#'>Servicios</a></li>
+            <li><a href='#'>Valores</a></li>
+            <li><a href='#'>Nosotros</a></li>
+            <li><a href='#'>Contacto</a></li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </nav >
+    </header >
   )
 }
 

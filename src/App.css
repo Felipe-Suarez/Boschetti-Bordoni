@@ -1,5 +1,21 @@
-*{
+/*RESET*/
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/*SCROLL EFFECT*/
+body {
+  font-size: 10px; /*rem*/
+}
+
+/*VARIABLES*/
+:root {
+  --main-color: #193459;
+  --secondary-color: #2b5273;
+  --tertiary-color: #186373;
+  --accent-color: #02a5a6;
+  --white-color: #fff;
+  --black-color: #000;
 }
