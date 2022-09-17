@@ -5,11 +5,14 @@ import { useState } from 'react';
 //falta handleSubmit.
 //logica de envio.
 //estilos.
+const handleSubmit = () => {
+    
+}
 
 
 const Contact = () => {
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
         <input
             type='text'
             placeholder='Nombre y Apellido'
