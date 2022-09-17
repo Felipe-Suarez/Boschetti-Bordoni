@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav nav className='nav-container' >
+      <nav className='nav-container' >
         <div className='nav-menu'>
           <div className='nav-menu-box'>
             <h1 className='nav-menu-title'>Boschetti Bordoni</h1>
