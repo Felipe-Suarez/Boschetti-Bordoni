@@ -12,7 +12,9 @@ const handleSubmit = () => {
 
 const Contact = () => {
   return (
-    <form onSubmit={handleSubmit}>
+    <section className='form-container'>
+
+      <form onSubmit={handleSubmit}>
         <input
             type='text'
             placeholder='Nombre y Apellido'
@@ -27,6 +29,9 @@ const Contact = () => {
         />
         <button type='submit'>Enviar</button>
     </form>
+
+    </section>
+    
   )
 }
 

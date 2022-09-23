@@ -1,10 +1,10 @@
 import './App.css';
 
 //components
-import Header from './components/header/Header';
+import Header from './components/Header/Header';
 import Home from './components/home/Home';
 import Services from './components/services/Services';
-//import Contact from './components/Contact/Contact'; //nico el nombre de las carpetas en minusculas te parece?
+import Contact from './components/Contact/Contact'; //nico el nombre de las carpetas en minusculas te parece?
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Home />
       <Services />
+      <Contact />
     </div>
   );
 }
