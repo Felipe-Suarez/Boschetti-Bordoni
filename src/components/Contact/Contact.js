@@ -6,7 +6,9 @@ import "./contact.css";
 //falta handleSubmit.
 //logica de envio.
 //estilos.
-const handleSubmit = () => {};
+const handleSubmit = (e) => {
+  e.preventDefault();
+};
 
 const Contact = () => {
   return (
