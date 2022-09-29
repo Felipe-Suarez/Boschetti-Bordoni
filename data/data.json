@@ -1,0 +1,67 @@
+{
+  "servicios": [
+    {
+      "img": "url",
+      "title": "Asesoría de empresas familiares",
+      "text": "Planificación patrimonial y financiera, mediación, manuales de procedimientos, establecimiento de protocolos."
+    },
+    {
+      "img": "url",
+      "title": "Finanzas para Pymes",
+      "text": "Flujos de fondos, gestión crediticia, evaluación de proyectos de inversión, asesoría en planificación financiera a corto y largo plazo, etc."
+    },
+    {
+      "img": "url",
+      "title": "Outsourcing management",
+      "text": "Delegación de la gestión financiera y administrativa a fin de que los propietarios prioricen su actividad productiva."
+    },
+    {
+      "img": "url",
+      "title": "Dirección estratégica comercial",
+      "text": "Planificación comercial, establecimiento y seguimiento de objetivos, dirección de equipos de venta, marketing y marketing digital"
+    },
+    {
+      "img": "url",
+      "title": "Control de gestión",
+      "text": "Control de stocks, reportes de rentabilidad, tableros de control."
+    },
+    {
+      "img": "url",
+      "title": "Análisis de datos",
+      "text": "Te ayudamos a medir los datos que genera tu negocio y te presentamos la información de manera simple para que puedas tomar decisiones que optimicen tus resultados."
+    },
+    {
+      "img": "url",
+      "title": "",
+      "text": ""
+    }
+  ],
+  "valores": [
+    {
+      "title": "Proactividad",
+      "text": "Se impulsa a innovar, pese a los posibles riesgos, con un enfoque pragmático, orientado a la viabilidad, la eficiencia, la eficacia y el control de riesgos."
+    },
+    {
+      "title": "Transparencia",
+      "text": "Es la base de todas las acciones tanto con clientes como con asociados y colaboradores, porque se cree en la transparencia como motor de confianza y buena gestión en el trabajo. "
+    },
+    {
+      "title": "Solidaridad",
+      "text": "Busca involucrarse con los proyectos de clientes, con sus esfuerzos y metas, equilibrar los intereses para el bien común. "
+    }
+  ],
+  "nosotros": [
+    {
+      "title": "Propósito",
+      "text": "Contribuir al desarrollo sostenible mediante servicios innovadores y de calidad, creando redes cooperativas."
+    },
+    {
+      "title": "Misión",
+      "text": "Ayudar a las organizaciones en su gestión, aportando servicios y soluciones estratégicas que crean valor y beneficio económico y social, a través de la innovación y el conocimiento, tomando como base el compromiso con los grupos de interés."
+    },
+    {
+      "title": "Visión",
+      "text": "Aportar valores éticos y soluciones prácticas mediante el uso de datos para la integración de la sostenibilidad en los modelos de gestión de las empresas y organizaciones, mejorando sus rendimientos y fomentando la cooperación."
+    }
+  ]
+}
