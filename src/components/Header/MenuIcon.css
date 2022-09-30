@@ -3,7 +3,7 @@
   width: 4vh;
   height: 4vh;
   top: 3vh;
-  right: 5vw;
+  left: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -28,6 +28,7 @@
 
 .open .bar-1 {
   transform: rotate(45deg) translateY(2vh);
+  border-radius: 50%;
 }
 
 .open .bar-2 {
@@ -36,6 +37,7 @@
 
 .open .bar-3 {
   transform: rotate(-45deg) translateY(-2vh);
+  border-radius: 50%;
 }
 
 /*MEDIA QUERYS*/

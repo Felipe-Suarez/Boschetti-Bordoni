@@ -5,20 +5,34 @@
   }
 
   .home-container {
+    width: 100%;
+  }
+
+  .home-box-up {
+    width: 100%;
+    margin: 10rem 10% 0;
+  }
+
+  .home-title {
+    font-size: 35px;
     text-align: left;
-    margin: 30vh 0 0 10vw;
+    margin: 0 0 1rem 0;
   }
 
-  .home-span-1 {
-    font-size: 3rem;
-    font-weight: 700;
+  .home-subtitle {
+    text-align: left;
+    font-weight: 300;
+    font-size: 25px;
+    margin: unset;
   }
 
-  .home-span-2 {
-    font-size: 2rem;
+  .home-box-down {
+    text-align: left;
+    margin: 0 10% 5rem;
+    font-size: 30px;
   }
 
-  .home-br {
-    display: block;
+  .home-info2 {
+    font-size: 20px;
   }
 }

@@ -5,8 +5,14 @@ const Home = () => {
     return (
         <section className='home'>
             <div className="home-container">
-                <span className="home-span-1">Contribuimos al desarrollo sostenible</span>
-                <span className="home-span-2">mediante servicios innovadores y de calidad, <span className='home-br'></span> creando redes cooperativas.</span>
+                <div className='home-box-up'>
+                    <h2 className="home-title">Contribuimos al desarrollo sostenible</h2>
+                    <h3 className="home-subtitle">mediante servicios innovadores y de calidad, creando redes cooperativas.</h3>
+                </div>
+                <div className='home-box-down'>
+                    <h4 className='home-info1'>Boschetti Bordoni</h4>
+                    <h4 className='home-info2'>Consultoría integral</h4>
+                </div>
             </div>
         </section>
     )

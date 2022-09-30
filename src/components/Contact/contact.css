@@ -1,42 +1,43 @@
-
-.form-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.contact-title{
-    display: flex;
-    text-align: center;
-    margin-top: 5rem;
-    
+.contact-title {
+  display: flex;
+  text-align: center;
+  margin-top: 5rem;
 }
 
-form{
-    width: 50vw;
+form {
+  width: 50vw;
 }
 
-input, textarea{
-    width: 100%;
-    padding: 0.5em;
-    border: none;
-    font-size: 1.2rem;
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font-size: 1.2rem;
 }
 
-button{
-    width: 30%;
-    padding: 0.5em;
-    font-size: 1.2rem;
-    background-color: var(--secondary-color);
+/* button {
+  width: 30%;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  background-color: var(--secondary-color);
+} */
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-input[type="text"], input[type="email"], textarea{
-    margin: 0 0 1em;
-    border: 1px solid #ccc;
-    outline: none;
-}
-
-textarea{
-    height: 6em;
+textarea {
+  height: 6em;
 }

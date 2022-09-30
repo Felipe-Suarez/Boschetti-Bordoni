@@ -3,7 +3,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
-  background-color: var(--main-color);
+  background-color: var(--accent-color);
 }
 
 .nav-menu {
@@ -21,14 +21,26 @@
 .nav-menu-title {
   font-size: 1.25rem;
   color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-menu-title-word {
+  margin: 0 2px;
+  font-weight: 700;
+}
+
+.nav-menu-title-img {
 }
 
 .nav-menu-list {
   height: 90vh;
   width: 50vw;
+  padding-bottom: 40vh;
   position: absolute;
   top: 10vh;
-  right: 0;
+  left: 0;
   background-color: var(--secondary-color);
   list-style: none;
   display: flex;
@@ -37,7 +49,7 @@
   color: var(--white-color);
   font-size: 1rem;
   align-items: center;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: transform 0.3s;
 }
 
@@ -49,4 +61,10 @@
 
 .menu-open {
   transform: translateX(0);
+}
+
+.nav-menu-link {
+  text-align: left;
+  width: 100%;
+  margin-left: 60%;
 }

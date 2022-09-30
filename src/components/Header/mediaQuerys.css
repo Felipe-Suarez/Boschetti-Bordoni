@@ -2,8 +2,7 @@
 
 @media screen and (min-width: 1000px) {
   .nav-container {
-    background-color: #606265;
-    height: 20vh;
+    height: 15vh;
   }
 
   .nav-menu {
@@ -11,15 +10,47 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
   .nav-menu-title {
-    color: var(--main-color);
     font-size: 3rem;
-    margin: 0 5vw;
-    width: 100px;
+    position: absolute;
+    top: 2;
+    left: 0;
+    margin-left: 3vw;
+  }
+
+  .nav-menu-title-word {
+    font-size: 4vw;
+    width: 2.5vw;
+    overflow: hidden;
+    transition: width 0.5s;
+    margin: 0;
+  }
+
+  .nav-menu-title:hover .b1 {
+    animation: title 0.5s linear normal forwards;
+  }
+
+  .nav-menu-title:hover .b2 {
+    animation: title 0.5s linear 0.25s normal forwards;
+  }
+
+  @keyframes title {
+    0% {
+      width: 2.6vw;
+    }
+    50% {
+      width: 18vw;
+    }
+    100% {
+      width: 18vw;
+      overflow: visible;
+    }
   }
 
   .nav-menu-list {
     transform: translate(0);
+    padding-bottom: 0;
     position: relative;
     flex-direction: row;
     height: 100%;
@@ -27,5 +58,10 @@
     background-color: unset;
     margin: 0 5vw;
     font-size: 1.25rem;
+  }
+
+  .nav-menu-link {
+    width: unset;
+    margin-left: 0;
   }
 }

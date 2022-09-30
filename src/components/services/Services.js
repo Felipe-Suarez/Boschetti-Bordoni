@@ -7,35 +7,34 @@ import "./mediaQuerys.css";
 
 const Services = () => {
 
-  const [info, setInfo] = useState([]);
+    const [info, setInfo] = useState([]);
 
-  useEffect(() => {
-    fetch("data/data.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setInfo(data.servicios);
-      });
-  }, []);
-  
-  //console.log(info);
-  
+    useEffect(() => {
+        fetch("data/data.json")
+            .then((response) => response.json())
+            .then((data) => {
+                setInfo(data.servicios);
+            });
+    }, []);
 
-  return(
+    return (
         <section className="services">
-          { 
-            info.map(( service, index) => {
-              return(
-                <article className="services-box" key={index}>
-                  <img className='services-box-img' src='' alt='empresas
-                  familiares' />
-                  <span className='services-box-title'>{service.title}</span>
-                  <p className='services-box-text'>{service.text}</p>
-                </article>
-              )
-            })      
-          }
+            <h2 className="services-title">Servicios</h2>
+            <div className="services-container">
+                {
+                    info.map((service, index) => {
+                        return (
+                            <article className="services-box" key={index}>
+                                <img className='services-box-img' src={`${service.img}`} alt={`${service.title}`} />
+                                <span className='services-box-title'>{service.title}</span>
+                                <p className='services-box-text'>{service.text}</p>
+                            </article>
+                        )
+                    })
+                }
+            </div>
         </section>
-  ) 
+    )
 };
 
 export default Services;
