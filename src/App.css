@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 /*SCROLL EFFECT*/
@@ -19,4 +18,8 @@ body {
   --accent-color: #02a5a6;
   --white-color: #fff;
   --black-color: #000;
+}
+
+.App {
+  overflow-x: hidden;
 }
