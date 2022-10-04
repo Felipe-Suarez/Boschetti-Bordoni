@@ -1,4 +1,4 @@
-import './menuIcon.css';
+import './MenuIcon.css';
 
 const MenuIcon = (props) => {
 
