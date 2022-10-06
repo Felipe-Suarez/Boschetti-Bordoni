@@ -3,13 +3,14 @@ import quienesSomos from '../../assets/quienesSomos.png';
 
 //stylesheets
 import "./quienesSomos.css";
+import "./mediaQuerys.css";
 
 const QuienesSomos = () => {
   return (
     <section className="quienes-somos" title='about'>
 
       <div className="img-container">
-        <img src={quienesSomos} alt="imagen de quienes somos" className="img-quienes-somos" />
+        <img src={quienesSomos} alt="imagen de quienes somos" className="quienes-somos-img" />
 
       </div>
 

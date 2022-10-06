@@ -1,0 +1,24 @@
+@media screen and (min-width: 1000px) {
+
+    .form-container{
+        flex-direction: row;
+
+    }
+
+    .form-box{
+        margin: 0 2rem;
+    }
+
+    input{
+        width: 500px;
+
+    }
+
+  
+    textarea{
+        width: 500px;
+        height: 275px;
+    }
+
+
+}

@@ -3,6 +3,7 @@ import React from "react";
 
 //style
 import "./contact.css";
+import "./mediaQuerys.css";
 //falta handleSubmit.
 //logica de envio.
 //estilos.
@@ -12,24 +13,26 @@ const handleSubmit = (e) => {
 
 const Contact = () => {
   return (
-    <section className="form">
-
-      <div className="form-container">
-        <span className="contact-text">Contactate con nosotros</span>
-        <div className="form-box">
-          <form onClick={handleSubmit}>
+    <section className="form-section">
+      
+        <h2 className="contact-text">Contactate con nosotros </h2>
+        
+          <form onClick={handleSubmit} className="form-container">
+            <div className="form-box">
             <input type="text" placeholder="Nombre y apellido" />
             <input type="email" placeholder="Email" />
             <input type="text" placeholder="Empresa" />
             <input type="text" placeholder="Industria" />
             <input type="text" placeholder="Cargo" />
+            </div>
+            <div className="form-box">
             <textarea type="message" placeholder="Mensaje" />
             <button type="submit" className="btn-submit">
               Enviar
             </button>
+            </div>
           </form>
-        </div>
-      </div>
+  
     </section>
   );
 };
