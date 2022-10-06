@@ -12,25 +12,25 @@ const handleSubmit = (e) => {
 
 const Contact = () => {
   return (
-      <section className="form">
-      
-        <div className="form-container">
+    <section className="form">
+
+      <div className="form-container">
         <span className="contact-text">Contactate con nosotros</span>
-          <div className="form-box">
-            <form onClick={handleSubmit}>
-              <input type="text" placeholder="Nombre y apellido" />
-              <input type="email" placeholder="Email" />
-              <input type="text" placeholder="Empresa" />
-              <input type="text" placeholder="Industria" />
-              <input type="text" placeholder="Cargo" />
-              <textarea type="message" placeholder="Mensaje" />
-              <button type="submit" className="btn-submit">
-                Enviar
-              </button>
-            </form>
-          </div>
+        <div className="form-box">
+          <form onClick={handleSubmit}>
+            <input type="text" placeholder="Nombre y apellido" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Empresa" />
+            <input type="text" placeholder="Industria" />
+            <input type="text" placeholder="Cargo" />
+            <textarea type="message" placeholder="Mensaje" />
+            <button type="submit" className="btn-submit">
+              Enviar
+            </button>
+          </form>
         </div>
-      </section>
+      </div>
+    </section>
   );
 };
 

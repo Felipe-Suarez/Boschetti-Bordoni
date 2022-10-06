@@ -5,6 +5,7 @@
   }
 
   .home-container {
+    position: relative;
     width: 100%;
   }
 
@@ -26,8 +27,9 @@
   }
 
   .home-box-down {
-    text-align: left;
-    margin: 0 10% 5rem;
+    position: absolute;
+    right: 3rem;
+    bottom: -1rem;
     font-size: 30px;
   }
 

@@ -11,11 +11,13 @@
     justify-content: space-between;
   }
 
+  .nav-menu-title-img {
+    position: absolute;
+    right: -7vw;
+  }
+
   .nav-menu-title {
     font-size: 3rem;
-    position: absolute;
-    top: 2;
-    left: 0;
     margin-left: 3vw;
   }
 

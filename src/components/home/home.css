@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to left, #18637366 40%, #193459 100%), url("../../assets/quienesSomos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white-color);
 }
 
 .home-container {
@@ -21,7 +25,7 @@
 .home-title {
   font-size: 30px;
   text-align: center;
-  margin: 0 10%;
+  margin: 0 5% 1rem;
 }
 
 .home-subtitle {

@@ -2,6 +2,7 @@
   height: 10vh;
   width: 100vw;
   position: fixed;
+  z-index: 500;
   top: 0;
   background-color: var(--accent-color);
 }
@@ -24,14 +25,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
+  position: relative;
 }
 
 .nav-menu-title-word {
   margin: 0 2px;
   font-weight: 700;
-}
-
-.nav-menu-title-img {
 }
 
 .nav-menu-list {
@@ -66,5 +66,4 @@
 .nav-menu-link {
   text-align: left;
   width: 100%;
-  margin-left: 60%;
 }

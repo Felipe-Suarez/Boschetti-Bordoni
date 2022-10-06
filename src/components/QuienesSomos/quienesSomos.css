@@ -1,43 +1,42 @@
-.quienes-somos{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--accent-color);
+.quienes-somos {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--accent-color);
 }
 
-
-.img-container{
-    display: flex;
+.img-container {
+  display: flex;
 }
 
-.img-quienes-somos{
-    max-width: 50vw;
+.img-quienes-somos {
+  max-width: 50vw;
 }
 
-.text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    margin: 1rem 0;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin: 1rem 0;
 }
 
-.title-quienes-somos{
-    font-size: 2.25rem;
-    line-height: 2rem;
-    font-weight: 700;
-    color: var(--white-color);
+.title-quienes-somos {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: var(--white-color);
 }
 
-.text-quienes-somos{
-    text-align: center;
-    width: 35vw;
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 2rem;
-    margin-top: 1rem;
-    color: var(--white-color);
+.text-quienes-somos {
+  text-align: center;
+  width: 35vw;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 1rem;
+  color: var(--white-color);
 }
