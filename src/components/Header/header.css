@@ -5,6 +5,7 @@
   z-index: 500;
   top: 0;
   background-color: var(--accent-color);
+  box-shadow: 0 5px 10px #193459aa;
 }
 
 .nav-menu {
@@ -28,7 +29,10 @@
   cursor: pointer;
   position: relative;
 }
-
+/* 
+.nav-menu-title-img {
+}
+ */
 .nav-menu-title-word {
   margin: 0 2px;
   font-weight: 700;

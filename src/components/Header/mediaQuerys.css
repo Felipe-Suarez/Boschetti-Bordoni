@@ -13,7 +13,9 @@
 
   .nav-menu-title-img {
     position: absolute;
-    right: -7vw;
+    right: -3vw;
+    width: 2.5vw;
+    padding-bottom: 15px;
   }
 
   .nav-menu-title {
@@ -37,6 +39,10 @@
     animation: title 0.5s linear 0.25s normal forwards;
   }
 
+  .nav-menu-title:hover .nav-menu-title-img {
+    animation: logo 0.5s linear normal forwards;
+  }
+
   @keyframes title {
     0% {
       width: 2.6vw;
@@ -47,6 +53,18 @@
     100% {
       width: 18vw;
       overflow: visible;
+      filter: drop-shadow(3px 0 2px #193459);
+    }
+  }
+
+  @keyframes logo {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-2.5vw);
+      filter: drop-shadow(3px 0 2px #193459);
     }
   }
 
@@ -65,5 +83,7 @@
   .nav-menu-link {
     width: unset;
     margin-left: 0;
+    cursor: pointer;
+    padding: 2rem;
   }
 }

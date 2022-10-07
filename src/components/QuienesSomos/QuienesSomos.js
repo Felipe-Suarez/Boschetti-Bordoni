@@ -7,7 +7,7 @@ import "./mediaQuerys.css";
 
 const QuienesSomos = () => {
   return (
-    <section className="quienes-somos" title='about'>
+    <section className="quienes-somos">
 
       <div className="img-container">
         <img src={quienesSomos} alt="imagen de quienes somos" className="quienes-somos-img" />

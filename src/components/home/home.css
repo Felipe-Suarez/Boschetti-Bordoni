@@ -5,10 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to left, #18637366 40%, #193459 100%), url("../../assets/quienesSomos.png");
+  background-image: linear-gradient(to left, #18637366 40%, #193459 100%), url("/public/imgs/Consultora.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white-color);
+  background-attachment: fixed;
 }
 
 .home-container {
@@ -18,8 +19,8 @@
   justify-content: space-between;
 }
 
-.home-box-up {
-  margin-top: 5rem;
+.home-box {
+  margin-top: 20vh;
 }
 
 .home-title {
@@ -33,17 +34,4 @@
   font-weight: 300;
   font-size: 20px;
   margin: 0 8%;
-}
-
-.home-box-down {
-  text-align: left;
-  margin: 0 auto 2.5rem;
-}
-
-.home-info1 {
-  font-size: 24px;
-}
-
-.home-info-2 {
-  font-size: 18px;
 }

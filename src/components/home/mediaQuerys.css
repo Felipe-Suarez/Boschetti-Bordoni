@@ -9,7 +9,7 @@
     width: 100%;
   }
 
-  .home-box-up {
+  .home-box {
     margin: 10rem 10% 0;
   }
 
@@ -24,16 +24,5 @@
     font-weight: 300;
     font-size: 25px;
     margin: unset;
-  }
-
-  .home-box-down {
-    position: absolute;
-    right: 3rem;
-    bottom: -1rem;
-    font-size: 30px;
-  }
-
-  .home-info2 {
-    font-size: 20px;
   }
 }

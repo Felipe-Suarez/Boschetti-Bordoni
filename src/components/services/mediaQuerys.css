@@ -1,25 +1,13 @@
 @media screen and (min-width: 1000px) {
   .services-box {
     margin: 2rem;
-    width: 610px;
-    height: unset;
-    flex-direction: row;
-    padding: 1rem;
   }
 
-  .services-box-img {
-    flex-basis: 10%;
-    height: unset;
+  .arrow-left {
+    left: 20vw;
   }
 
-  .services-box-title {
-    flex-basis: 45%;
-    font-size: 1.25rem;
-  }
-
-  .services-box-text {
-    flex-basis: 45%;
-    font-size: 1.1rem;
-    padding: 0;
+  .arrow-right {
+    right: 20vw;
   }
 }

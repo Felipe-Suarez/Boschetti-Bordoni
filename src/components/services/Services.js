@@ -19,7 +19,11 @@ const Services = () => {
 
     return (
         <section className="services">
-            <h2 className="services-title">Servicios</h2>
+            <div className="services-box-title">
+                <span className="arrow-left"></span>
+                <h2 className="services-title">Servicios</h2>
+                <span className="arrow-right"></span>
+            </div>
             <div className="services-container">
                 {
                     info.map((service, index) => {

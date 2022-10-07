@@ -1,0 +1,53 @@
+.aside-container {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #02a5a6 -100%, rgba(25, 52, 89, 0.52) 99.99%), url("/public/imgs/Consultora2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position-y: 70%; */
+  background-position-x: 40%;
+}
+
+.aside-title {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.aside-btn {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px 5px #0005;
+  transition: all 0.2s;
+}
+
+.aside-btn:active {
+  transform: translateY(7px);
+  box-shadow: 0 0 5px #0005;
+}
+
+@media screen and (min-width: 1000px) {
+  .aside-container {
+    background-image: linear-gradient(270deg, #02a5a6 3.65%, rgba(25, 52, 89, 0.52) 90.62%), url("/public/imgs/Consultora2.png");
+  }
+
+  .aside-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 5px #0005;
+  }
+
+  .aside-btn:active {
+    transform: translateY(7px);
+    box-shadow: 0 0 5px #0005;
+  }
+}
