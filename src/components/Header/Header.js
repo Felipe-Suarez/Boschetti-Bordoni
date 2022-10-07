@@ -54,6 +54,7 @@ const Header = () => {
           </ul>
         </div>
       </nav >
+      <div className='load-animation'></div>
     </header >
   )
 }
