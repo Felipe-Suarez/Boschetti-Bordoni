@@ -7,7 +7,7 @@ import Services from './components/Services/Services';
 import CallToAction from './components/CallToAction/CallToAction';
 import QuinesSomos from './components/QuienesSomos/QuienesSomos';
 import Nosotros from './components/Nosotros/Nosotros';
-import Contact from './components/Contact/Contact'; //nico el nombre de las carpetas en minusculas te parece?
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {

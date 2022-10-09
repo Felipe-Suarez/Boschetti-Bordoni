@@ -1,0 +1,13 @@
+@media screen and (min-width: 1000px) {
+  .services-box {
+    margin: 2rem;
+  }
+
+  .arrow-left {
+    left: 20vw;
+  }
+
+  .arrow-right {
+    right: 20vw;
+  }
+}

@@ -54,7 +54,7 @@ const Header = () => {
           </ul>
         </div>
       </nav >
-      <div className='load-animation'></div>
+      <div className={`load-animation ${window.innerWidth < 1000 && 'animation-mobile'}`}></div>
     </header >
   )
 }
