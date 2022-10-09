@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      <div className={`load-animation ${window.innerWidth < 1000 && 'animation-mobile'}`}></div>
       <Header />
       <Home />
       <Services />

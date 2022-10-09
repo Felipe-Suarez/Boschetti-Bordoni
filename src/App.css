@@ -22,3 +22,31 @@ body {
 .App {
   overflow-x: hidden;
 }
+
+.load-animation {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("/public/imgs/animation.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.animation-mobile {
+  display: inline-block;
+  animation: load-init 0.5s linear 1.5s normal forwards;
+}
+
+@keyframes load-init {
+  0% {
+    filter: opacity(1);
+  }
+  100% {
+    filter: opacity(0);
+  }
+}
