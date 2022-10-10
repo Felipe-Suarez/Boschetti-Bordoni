@@ -24,7 +24,6 @@ body {
 }
 
 .load-animation {
-  display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -38,8 +37,7 @@ body {
 }
 
 .animation-mobile {
-  display: inline-block;
-  animation: load-init 0.5s linear 1.5s normal forwards;
+  animation: load-init 0.5s linear 1s normal forwards;
 }
 
 @keyframes load-init {
@@ -49,4 +47,8 @@ body {
   100% {
     filter: opacity(0);
   }
+}
+
+.animation-desktop {
+  display: none;
 }
