@@ -21,6 +21,14 @@ const Header = () => {
     setOpen(false)
   }
 
+  const [navMove, setNavMove] = useState('')
+
+  const setClass = (name) => {
+    setNavMove(name)
+  }
+
+  const removeClass = () => setNavMove('')
+
   return (
     <header>
       <nav className='nav-container' >
@@ -30,7 +38,7 @@ const Header = () => {
               smooth={true}
               offset={-100}
               duration={500}>
-              <div className='nav-menu-title'>
+              <div onMouseOver={() => { setClass(('')) }} className='nav-menu-title'>
                 <div className='nav-menu-title-word b1'>Boschetti</div>
                 <div className='nav-menu-title-word b2'>Bordoni</div>
                 <img className='nav-menu-title-img' src={logo} alt="logo" />
@@ -38,21 +46,22 @@ const Header = () => {
             </Link>
           </div>
           <MenuIcon open={open} handleClick={menuBtn} />
-          <ul className={`nav-menu-list ${open ? 'menu-open' : ''}`}>
+          <ul onMouseLeave={removeClass} className={`nav-menu-list ${open ? 'menu-open' : ''}`}>
             <Link onClick={closeMenu} to='services' smooth={true} offset={-120} duration={500}>
-              <li className='nav-menu-link'>Servicios</li>
+              <li onMouseOver={() => { setClass(('toService')) }} className='nav-menu-link'>Servicios</li>
             </Link>
             <Link onClick={closeMenu} to='nosotros' smooth={true} offset={-100} duration={500}>
-              <li className='nav-menu-link'>Valores</li>
+              <li onMouseOver={() => { setClass(('toValues')) }} className='nav-menu-link'>Valores</li>
             </Link>
             <Link onClick={closeMenu} to='quienes-somos' smooth={true} offset={-100} duration={500}>
-              <li className='nav-menu-link'>Nosotros</li>
+              <li onMouseOver={() => { setClass(('toAbout')) }} className='nav-menu-link'>Nosotros</li>
             </Link>
             <Link onClick={closeMenu} to='form-section' smooth={true} offset={-100} duration={500}>
-              <li className='nav-menu-link'>Contacto</li>
+              <li onMouseOver={() => { setClass(('toContact')) }} className='nav-menu-link'>Contacto</li>
             </Link>
-          </ul>
-        </div>
+            <div className={`navigator ${navMove}`}></div>
+          </ul >
+        </div >
       </nav >
     </header >
   )
