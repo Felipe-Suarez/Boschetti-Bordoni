@@ -1,0 +1,21 @@
+@media screen and (min-width: 1000px){
+    .footer{
+        height: 160px;
+    }
+
+    .networks-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mail-location-box{
+        margin-top: 3rem;
+    }
+    
+    .fb-instagram-box{
+        margin-top: 3rem;
+    }
+
+
+}

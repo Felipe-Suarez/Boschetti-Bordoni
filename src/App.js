@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import CallToAction from './components/CallToAction/CallToAction';
+import Values from './components/Values/Values';
 import QuinesSomos from './components/QuienesSomos/QuienesSomos';
 import Nosotros from './components/Nosotros/Nosotros';
 import Contact from './components/Contact/Contact';
@@ -44,6 +45,7 @@ function App() {
             <Home />
             <Services />
             <CallToAction />
+            <Values />
             <QuinesSomos />
             <Nosotros />
             <Contact />
