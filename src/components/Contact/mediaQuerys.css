@@ -2,7 +2,16 @@
 
     .form-container{
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
+    }
+
+    .contact-text{
+        position: relative;
+        left: 100px;
+        text-align: left; 
+        font-size: 3rem;
     }
 
     .form-box{

@@ -1,6 +1,6 @@
 .footer{
     width: 100vw;
-    height: 70vw;
+    height: 90vw;
     background-color: var(--accent-color);
 }
 
@@ -10,10 +10,14 @@
     align-items: center;
 }
 
+.footer-logo{
+    margin-top: 2rem;
+}
+
 .network-img{
     filter: invert(99%) sepia(99%) saturate(4%) hue-rotate(125deg) brightness(103%) contrast(101%);
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-right: 0.5rem;
     vertical-align: middle;
 }

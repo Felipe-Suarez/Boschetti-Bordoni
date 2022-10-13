@@ -1,5 +1,6 @@
 .form-section{
   width:100vw;
+  margin-bottom: 3rem;
 }
 
 .form-container{
@@ -10,16 +11,18 @@
 }
 
 .contact-text{
-  font-size: 3rem;
+  font-size: 1.75rem;
+  text-align: center;
   font-weight: 700;
   line-height: 5rem;
   color: var(--main-color);
+  margin-bottom: 2rem;
 }
 
 
 input
 {
-  
+  width: 300px;
   height: 50px;
   padding: 0.5em;
   font-size: 1.2rem;
@@ -27,7 +30,8 @@ input
 
 textarea{
   display: flex;
-  height: 175px;
+  height: 140px;
+  width: 380;
   border-radius: 5px;
   font-size: 1.2rem;
   padding: 0.5em;
@@ -45,12 +49,13 @@ input[type="email"]{
 }
 
 .btn-submit{
-  width: 120px;
-  height: 50px;
+  width: 121px;
+  height: 52px;
   border-radius: 5px;
+  border-style: none;
   text-align: center;
   font-size: 1.2rem;
-  background-color: var(--secondary-color);
-  color: var(--white-color);
+  background-color: var(--accent-color);
+  color: #ffff;
   margin-top: 1rem;
 }
