@@ -50,7 +50,7 @@ const Header = () => {
             <Link onClick={closeMenu} to='services' smooth={true} offset={-120} duration={500}>
               <li onMouseOver={() => { setClass(('toService')) }} className='nav-menu-link'>Servicios</li>
             </Link>
-            <Link onClick={closeMenu} to='values' smooth={true} offset={-100} duration={500}>
+            <Link onClick={closeMenu} to='values' smooth={true} offset={-120} duration={500}>
               <li onMouseOver={() => { setClass(('toValues')) }} className='nav-menu-link'>Valores</li>
             </Link>
             <Link onClick={closeMenu} to='quienes-somos' smooth={true} offset={-100} duration={500}>

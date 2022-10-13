@@ -1,33 +1,29 @@
 @media screen and (min-width: 1000px) {
-    .values{
-        width: 100vw;
-        height: 300px;
-    }
-    
-    .swiper-container{
-        margin: 2rem;
-    }
-    
-    .value-title{
-        color: var(--main-color);
-        font-size: 2rem;
-        font-weight: 600;
-    }
-    
-    .value-txt{
-        font-size: 0.75rem;
-        font-weight: 400;
-        text-align: justify;
-        margin-top: 1rem;
-    }
+  .values {
+    width: 100vw;
+  }
 
-    .arrow{
-        position: absolute;
-        width: 30vw;
-        height: 1.5px;
-        margin-top: 1rem;
-        background-color: #606265;
-    }
-    
+  .swiper-container {
+    margin: 2rem;
+  }
 
+  .value-title {
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .value-txt {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 30vw;
+    height: 1.5px;
+    background-color: #606265;
+  }
 }
