@@ -14,30 +14,32 @@ const Footer = () => {
     <footer className="footer">
       <div className="networks-container">
         <div>
-          <img className="footer-logo" src={logoCompleto} alt="logoFooter"/>
+          <img className="footer-logo" src={logoCompleto} alt="logoFooter" />
         </div>
 
-        <div className="mail-location-box">
-          <div>
-            <img className="network-img" src={logoLocation} alt="logo location"/>
-            <span className="network-txt">
-              Direccion: calle xxx - Oficina xxx
-            </span>
+        <div className="footer-info-container">
+          <div className="mail-location-box">
+            <div>
+              <img className="network-img" src={logoLocation} alt="logo location" />
+              <span className="network-txt">
+                Direccion: calle xxx - Oficina xxx
+              </span>
+            </div>
+            <div>
+              <img className="network-img" src={logoMail} alt="logo mail" />
+              <span className="network-txt">Mail: boschetti@gmail.com</span>
+            </div>
           </div>
-          <div>
-            <img className="network-img" src={logoMail} alt="logo mail" />
-            <span className="network-txt">Mail: boschetti@gmail.com</span>
-          </div>
-        </div>
 
-        <div className="fb-instagram-box">
-          <div>
-            <img className="network-img" src={logoFacebook} alt="logo facebook"/>
-            <span className="network-txt">@boschettibordoni</span>
-          </div>
-          <div>
-            <img className="network-img" src={logoInstagram} alt="logo instagram" />
-            <span className="network-txt">@boschettibordoni</span>
+          <div className="fb-instagram-box">
+            <div>
+              <img className="network-img" src={logoFacebook} alt="logo facebook" />
+              <span className="network-txt">@boschettibordoni</span>
+            </div>
+            <div>
+              <img className="network-img" src={logoInstagram} alt="logo instagram" />
+              <span className="network-txt">@boschettibordoni</span>
+            </div>
           </div>
         </div>
       </div>

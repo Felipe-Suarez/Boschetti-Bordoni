@@ -19,7 +19,7 @@ const Services = () => {
 
     return (
         <section className="services">
-            <div className="services-box-title">
+            <div className="services-arrow-title">
                 <span className="arrow-left"></span>
                 <h2 className="services-title">Servicios</h2>
                 <span className="arrow-right"></span>

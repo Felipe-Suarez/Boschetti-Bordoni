@@ -1,21 +1,29 @@
-@media screen and (min-width: 1000px){
-    .footer{
-        height: 160px;
-    }
+@media screen and (min-width: 1000px) {
+  .footer {
+    height: 160px;
+  }
 
-    .networks-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  .networks-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10rem 0 5rem;
+  }
 
-    .mail-location-box{
-        margin-top: 3rem;
-    }
-    
-    .fb-instagram-box{
-        margin-top: 3rem;
-    }
+  .footer-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 60%;
+  }
 
+  .mail-location-box {
+    margin-top: 3rem;
+  }
 
+  .fb-instagram-box {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: unset;
+  }
 }

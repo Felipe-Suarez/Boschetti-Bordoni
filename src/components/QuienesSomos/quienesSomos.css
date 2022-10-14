@@ -3,30 +3,28 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: var(--accent-color);
 }
 
-.quienes-somos-img{
+.quienes-somos-img {
   width: 100%;
   object-fit: contain;
 }
 
-.text-container{
+.text-container {
   margin: 0 1rem;
 }
 
-.title-quienes-somos{
+.title-quienes-somos {
   display: block;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: left;
   margin: 0.5rem 0;
   color: var(--white-color);
-
 }
 
-.text-quienes-somos{
+.text-quienes-somos {
   text-align: left;
   font-size: 1rem;
   font-weight: 400;

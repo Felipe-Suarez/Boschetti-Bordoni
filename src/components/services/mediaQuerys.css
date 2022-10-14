@@ -1,6 +1,18 @@
 @media screen and (min-width: 1000px) {
   .services-box {
-    margin: 2rem;
+    margin: 10px;
+    overflow-x: hidden;
+  }
+
+  .services-box:hover .services-box-img {
+    height: 80px;
+    transform: translateY(-110px);
+    filter: drop-shadow(0 110px 0 #000);
+  }
+
+  .services-box:hover .services-box-title,
+  .services-box:hover .services-box-text {
+    transform: translateY(-15px);
   }
 
   .arrow-left {
@@ -9,5 +21,24 @@
 
   .arrow-right {
     right: 20vw;
+  }
+}
+
+@media screen and (min-width: 1066px) {
+  .services-container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .services-box:last-child {
+    width: 940px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 688px) and (max-width: 1200px) {
+  .services-box:last-child {
+    height: 300px;
+    width: 610px;
   }
 }

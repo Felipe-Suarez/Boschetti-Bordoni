@@ -1,33 +1,27 @@
 @media screen and (min-width: 1000px) {
+  .form-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .form-container{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+  .contact-text {
+    position: relative;
+    left: 100px;
+    text-align: left;
+    font-size: 3rem;
+  }
 
-    }
+  .form-box {
+    margin: 0 2rem;
+  }
 
-    .contact-text{
-        position: relative;
-        left: 100px;
-        text-align: left; 
-        font-size: 3rem;
-    }
+  input {
+    width: 500px;
+  }
 
-    .form-box{
-        margin: 0 2rem;
-    }
-
-    input{
-        width: 500px;
-
-    }
-
-  
-    textarea{
-        width: 500px;
-        height: 275px;
-    }
-
-
+  textarea {
+    width: 500px;
+    height: 275px;
+  }
 }

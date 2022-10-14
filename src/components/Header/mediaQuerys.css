@@ -115,3 +115,21 @@
     background-color: #fff;
   }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .toService {
+    transform: translateX(-30%);
+  }
+  .toValues {
+    transform: translateX(138%);
+    background-color: #fff;
+  }
+  .toAbout {
+    transform: translateX(308%);
+    background-color: #fff;
+  }
+  .toContact {
+    transform: translateX(484%);
+    background-color: #fff;
+  }
+}
