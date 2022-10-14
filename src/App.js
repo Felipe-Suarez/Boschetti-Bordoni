@@ -15,7 +15,7 @@ import { useEffect, useState } from 'react';
 function App() {
 
   const isMobile = () => {
-    return window.innerWidth < 1000
+    return window.innerWidth < 650
   }
 
   let classDesktop = ''

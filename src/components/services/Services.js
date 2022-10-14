@@ -1,5 +1,5 @@
-
 import { useEffect, useState } from "react";
+import Fade from 'react-reveal/Fade';
 
 //style and query
 import "./services.css";
@@ -28,11 +28,13 @@ const Services = () => {
                 {
                     info.map((service, index) => {
                         return (
-                            <article className="services-box" key={index}>
-                                <img className='services-box-img' src={`${service.img}`} alt={`${service.title}`} />
-                                <span className='services-box-title'>{service.title}</span>
-                                <p className='services-box-text'>{service.text}</p>
-                            </article>
+                            <Fade bottom key={index}>
+                                <article className="services-box">
+                                    <img className='services-box-img' src={`${service.img}`} alt={`${service.title}`} />
+                                    <span className='services-box-title'>{service.title}</span>
+                                    <p className='services-box-text'>{service.text}</p>
+                                </article>
+                            </Fade>
                         )
                     })
                 }

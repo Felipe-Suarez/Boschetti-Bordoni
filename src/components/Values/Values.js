@@ -26,8 +26,6 @@ const Values = () => {
         <Swiper
           spaceBetween={0}
           slidesPerView={isMobile() ? 1 : 3}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
           navigation={true}
           modules={[Navigation]}
         >

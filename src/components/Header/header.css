@@ -29,10 +29,12 @@
   cursor: pointer;
   position: relative;
 }
-/* 
+
 .nav-menu-title-img {
+  height: 30px;
+  margin-bottom: 10px;
 }
- */
+
 .nav-menu-title-word {
   margin: 0 2px;
   font-weight: 700;
@@ -50,9 +52,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: flex-start;
   color: var(--white-color);
   font-size: 1rem;
-  align-items: center;
   transform: translateX(-100%);
   transition: transform 0.3s;
 }
@@ -69,5 +71,6 @@
 
 .nav-menu-link {
   text-align: left;
-  width: 100%;
+  margin-left: 15vw;
+  width: 25vw;
 }

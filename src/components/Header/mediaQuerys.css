@@ -15,6 +15,8 @@
     position: absolute;
     right: -3vw;
     width: 3vw;
+    height: auto;
+    margin: 0;
     padding: 0 0 18px 5px;
   }
 
@@ -78,6 +80,7 @@
     background-color: unset;
     margin: 0 5vw;
     font-size: 1.25rem;
+    align-items: center;
   }
 
   .nav-menu-link {

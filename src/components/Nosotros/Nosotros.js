@@ -1,12 +1,9 @@
-
-import React from 'react';
 import { useState, useEffect } from 'react';
 
 //style
 import "./nosotros.css";
 
 const Nosotros = () => {
-
 
     const [info, setInfo] = useState([]);
 
@@ -17,7 +14,6 @@ const Nosotros = () => {
                 setInfo(data.nosotros)
             });
     }, []);
-
 
     return (
         <section className="nosotros">

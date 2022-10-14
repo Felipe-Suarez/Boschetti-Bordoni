@@ -4,10 +4,14 @@
     overflow-x: hidden;
   }
 
+  .services-box-img {
+    filter: drop-shadow(0 110px 0 #000);
+    transition: all 0.2s;
+  }
+
   .services-box:hover .services-box-img {
     height: 80px;
     transform: translateY(-110px);
-    filter: drop-shadow(0 110px 0 #000);
   }
 
   .services-box:hover .services-box-title,
