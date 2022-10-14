@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Bounce from 'react-reveal/Bounce';
 
 //style
 import "./contact.css";
@@ -32,21 +31,17 @@ const Contact = () => {
 
       <form ref={form} onSubmit={sendEmail} className="form-container">
         <div className="form-box">
-          <Bounce left>
-            <input type="text" name="user_name" placeholder="Nombre y apellido" required />
-            <input type="email" name="user_email" placeholder="Email" required />
-            <input type="text" name="user_business" placeholder="Empresa" required />
-            <input type="text" name="user_industry" placeholder="Industria" required />
-            <input type="text" name="user_role" placeholder="Cargo" required />
-          </Bounce>
+          <input type="text" name="user_name" placeholder="Nombre y apellido" required />
+          <input type="email" name="user_email" placeholder="Email" required />
+          <input type="text" name="user_business" placeholder="Empresa" required />
+          <input type="text" name="user_industry" placeholder="Industria" required />
+          <input type="text" name="user_role" placeholder="Cargo" required />
         </div>
         <div className="form-box">
-          <Bounce right>
-            <textarea type="message" name="user_message" placeholder="Mensaje" />
-            <button type="submit" className="btn-submit">
-              Enviar
-            </button>
-          </Bounce>
+          <textarea type="message" name="user_message" placeholder="Mensaje" />
+          <button type="submit" className="btn-submit">
+            Enviar
+          </button>
         </div>
       </form>
 
