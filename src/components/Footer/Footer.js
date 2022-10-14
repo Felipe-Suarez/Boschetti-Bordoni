@@ -5,6 +5,7 @@ import logoMail from "../../assets/logoMail.png";
 import logoInstagram from "../../assets/logoInstagram.png";
 import logoFacebook from "../../assets/facebookLogoOk.png"
 import Bounce from 'react-reveal/Bounce';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 //stylesheets
 import "./footer.css";
@@ -14,9 +15,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="networks-container">
-        <div>
-          <img className="footer-logo" src={logoCompleto} alt="logoFooter" />
-        </div>
+        <LightSpeed>
+          <div>
+            <img className="footer-logo" src={logoCompleto} alt="logoFooter" />
+          </div>
+        </LightSpeed>
 
         <Bounce bottom>
           <div className="footer-info-container">
