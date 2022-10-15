@@ -6,7 +6,7 @@
   align-items: center;
   background: linear-gradient(270deg, #02a5a6 -100%, rgba(25, 52, 89, 0.52) 99.99%), url("/public/imgs/Consultora2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100vh;
   background-attachment: fixed;
   /* background-position-y: 70%; */
   background-position-x: 40%;
@@ -39,6 +39,7 @@
 @media screen and (min-width: 1000px) {
   .aside-container {
     background-image: linear-gradient(270deg, #02a5a6 3.65%, rgba(25, 52, 89, 0.52) 90.62%), url("/public/imgs/Consultora2.png");
+    background-size: cover;
   }
 
   .aside-btn:hover {

@@ -2,6 +2,7 @@
   .home {
     justify-content: unset;
     align-items: unset;
+    background-size: cover;
   }
 
   .home-container {
