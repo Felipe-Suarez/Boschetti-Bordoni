@@ -7,7 +7,7 @@
   align-items: center;
   background-image: linear-gradient(to left, #18637366 40%, #193459 100%), url("/public/imgs/Consultora.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200% 100%;
   color: var(--white-color);
   background-attachment: fixed;
 }
