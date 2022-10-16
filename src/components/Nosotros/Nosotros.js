@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 //style
 import "./nosotros.css";
+import "./mediaQuerys.css"
 
 const Nosotros = () => {
 
