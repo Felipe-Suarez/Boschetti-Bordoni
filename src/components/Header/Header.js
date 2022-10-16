@@ -1,13 +1,24 @@
-import { useState } from 'react';
-
+//css
 import './header.css';
 import './mediaQuerys.css'
 
+//state
+import { useState } from 'react';
+
+//component
 import MenuIcon from './MenuIcon';
 
-import { Link, animateScroll as scroll } from "react-scroll";
+//framework
+import { Link } from "react-scroll";
 
+//img
 import logo from '../../assets/logo.png'
+
+//icons
+import { RiHandCoinFill } from 'react-icons/ri'
+import { BsInfoSquareFill } from 'react-icons/bs'
+import { HiUserGroup } from 'react-icons/hi'
+import { MdContactMail } from 'react-icons/md'
 
 const Header = () => {
 
@@ -48,16 +59,28 @@ const Header = () => {
           <MenuIcon open={open} handleClick={menuBtn} />
           <ul onMouseLeave={removeClass} className={`nav-menu-list ${open ? 'menu-open' : ''}`}>
             <Link onClick={closeMenu} to='services' smooth={true} offset={-120} duration={500}>
-              <li onMouseOver={() => { setClass(('toService')) }} className='nav-menu-link'>Servicios</li>
+              <div className='nav-menu-list-box'>
+                <RiHandCoinFill className='nav-menu-list-icon' />
+                <li onMouseOver={() => { setClass(('toService')) }} className='nav-menu-link'>Servicios</li>
+              </div>
             </Link>
             <Link onClick={closeMenu} to='values' smooth={true} offset={-120} duration={500}>
-              <li onMouseOver={() => { setClass(('toValues')) }} className='nav-menu-link'>Valores</li>
+              <div className='nav-menu-list-box'>
+                <BsInfoSquareFill className='nav-menu-list-icon' />
+                <li onMouseOver={() => { setClass(('toValues')) }} className='nav-menu-link'>Valores</li>
+              </div>
             </Link>
             <Link onClick={closeMenu} to='quienes-somos' smooth={true} offset={-100} duration={500}>
-              <li onMouseOver={() => { setClass(('toAbout')) }} className='nav-menu-link'>Nosotros</li>
+              <div className='nav-menu-list-box'>
+                <HiUserGroup className='nav-menu-list-icon' />
+                <li onMouseOver={() => { setClass(('toAbout')) }} className='nav-menu-link'>Nosotros</li>
+              </div>
             </Link>
             <Link onClick={closeMenu} to='form-section' smooth={true} offset={-100} duration={500}>
-              <li onMouseOver={() => { setClass(('toContact')) }} className='nav-menu-link'>Contacto</li>
+              <div className='nav-menu-list-box'>
+                <MdContactMail className='nav-menu-list-icon' />
+                <li onMouseOver={() => { setClass(('toContact')) }} className='nav-menu-link'>Contacto</li>
+              </div>
             </Link>
             <div className={`navigator ${navMove}`}></div>
           </ul >

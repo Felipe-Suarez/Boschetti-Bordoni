@@ -15,11 +15,17 @@
 }
 
 .network-img {
-  filter: invert(99%) sepia(99%) saturate(4%) hue-rotate(125deg) brightness(103%) contrast(101%);
+  color: var(--white-color);
   width: 20px;
   height: 20px;
   margin-right: 0.5rem;
   vertical-align: middle;
+}
+
+.network-facebook {
+  width: 17px;
+  height: 17px;
+  margin-left: 2px;
 }
 
 .mail-location-box {

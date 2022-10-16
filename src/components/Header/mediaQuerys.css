@@ -83,11 +83,24 @@
     align-items: center;
   }
 
+  .menu-open::before {
+    display: none;
+  }
+
+  .nav-menu-list-box {
+    cursor: pointer;
+  }
+
   .nav-menu-link {
     width: unset;
     margin-left: 0;
-    cursor: pointer;
     padding: 2rem;
+  }
+
+  .nav-menu-list-icon {
+    left: -0.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .navigator {

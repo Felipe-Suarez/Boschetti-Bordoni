@@ -59,18 +59,44 @@
   transition: transform 0.3s;
 }
 
-.nav-menu-list a:visited,
-.nav-menu-list a:link {
-  color: var(--white-color);
-  text-decoration: none;
+.menu-open::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 49.92vw;
+  width: 50vw;
+  height: 90vh;
+  z-index: -1;
+  animation: menu-bg 0.2s linear 0.3s normal forwards;
+}
+
+@keyframes menu-bg {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #0005;
+  }
 }
 
 .menu-open {
   transform: translateX(0);
 }
 
+.nav-menu-list-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-list-icon {
+  position: absolute;
+  left: 1rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .nav-menu-link {
-  text-align: left;
   margin-left: 15vw;
   width: 25vw;
 }
