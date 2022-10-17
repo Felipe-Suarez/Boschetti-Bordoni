@@ -24,6 +24,11 @@ input {
   height: 50px;
   padding: 0.5em;
   font-size: 1.2rem;
+  display: flex;
+  margin: 0 0 1em;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  outline: none;
 }
 
 textarea {
@@ -37,15 +42,6 @@ textarea {
   width: 350px;
 }
 
-input[type="text"],
-input[type="email"] {
-  display: flex;
-  margin: 0 0 1em;
-  border: 1px solid #e6e6e6;
-  border-radius: 5px;
-  outline: none;
-}
-
 .btn-submit {
   width: 121px;
   height: 52px;
@@ -56,4 +52,8 @@ input[type="email"] {
   background-color: var(--accent-color);
   color: #ffff;
   margin-top: 1rem;
+}
+
+.Toastify__toast-body {
+  font-size: 1rem;
 }

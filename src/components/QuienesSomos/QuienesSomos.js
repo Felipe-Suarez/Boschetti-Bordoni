@@ -1,4 +1,3 @@
-import React from 'react';
 import quienesSomos from '../../assets/quienesSomos.png';
 
 //stylesheets

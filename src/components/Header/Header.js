@@ -64,7 +64,7 @@ const Header = () => {
                 <li onMouseOver={() => { setClass(('toService')) }} className='nav-menu-link'>Servicios</li>
               </div>
             </Link>
-            <Link onClick={closeMenu} to='values' smooth={true} offset={-120} duration={500}>
+            <Link onClick={closeMenu} to='aside-container' smooth={true} offset={-100} duration={500}>
               <div className='nav-menu-list-box'>
                 <BsInfoSquareFill className='nav-menu-list-icon' />
                 <li onMouseOver={() => { setClass(('toValues')) }} className='nav-menu-link'>Valores</li>

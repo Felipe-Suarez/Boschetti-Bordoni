@@ -1,4 +1,3 @@
-import React from "react";
 import logoCompleto from "../../assets/logoCompleto.png";
 import Bounce from 'react-reveal/Bounce';
 import LightSpeed from 'react-reveal/LightSpeed';
