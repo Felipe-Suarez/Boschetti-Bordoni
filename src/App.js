@@ -31,7 +31,7 @@ function App() {
     } else {
       setLoading(false)
     }
-  })
+  },[]);
 
   return (
     <div className="App">

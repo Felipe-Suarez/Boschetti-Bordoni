@@ -10,7 +10,6 @@
 
   .text-container {
     width: 45vw;
-    overflow-y: auto;
   }
 
   .title-quienes-somos {
@@ -27,9 +26,13 @@
   }
 }
 
-@media screen and(min-width: 1000px) and (max-width: 1420px) {
+@media screen and (min-width: 1000px) and (max-width: 1420px) {
   .text-container {
     padding: 0;
+  }
+
+  .quienes-somos{
+    height: 65vh;
   }
 }
 
@@ -42,6 +45,11 @@
 @media screen and (min-width: 1000px) and (max-width: 1250px) {
   .quienes-somos-img {
     width: 50vw;
+    height: 85vh;
     object-fit: cover;
+  }
+
+  .quienes-somos{
+    height: 85vh;
   }
 }
