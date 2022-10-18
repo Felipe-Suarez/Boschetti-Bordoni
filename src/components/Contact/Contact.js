@@ -15,9 +15,9 @@ const Contact = () => {
 
   //emailjs
   const form = useRef();
-  const serviceId = 'service_j19lei5';
-  const templateId = 'template_42jndtj';
-  const publicKey = 'VTFHGW1HwlxrzSLu4';
+  const serviceId = 'service_tlb8loh';
+  const templateId = 'template_ts3ws69';
+  const publicKey = 'zP2eg9SZfQB_WoJku';
 
   //states
   const [valueName, setName] = useState('')
@@ -52,8 +52,12 @@ const Contact = () => {
           toastError()
         });
     }
-
-    e.target.reset();
+    setName('')
+    setEmail('')
+    setEmpresa('')
+    setIndustria('')
+    setCargo('')
+    setTextarea('Hola, me gustaria agendar una reunion')
   };
 
   return (
