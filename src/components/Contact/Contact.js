@@ -25,7 +25,7 @@ const Contact = () => {
   const [valueEmpresa, setEmpresa] = useState('')
   const [valueIndustria, setIndustria] = useState('')
   const [valueCargo, setCargo] = useState('')
-  const [valueTextarea, setTextarea] = useState('')
+  const [valueTextarea, setTextarea] = useState('Hola, me gustaria agendar una reunion')
 
   const inputValues = [
     valueName, valueEmail, valueEmpresa, valueIndustria, valueCargo, valueTextarea

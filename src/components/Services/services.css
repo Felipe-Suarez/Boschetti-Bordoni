@@ -46,10 +46,6 @@
   justify-content: center;
 }
 
-.services-box:last-child .services-box-img {
-  display: none;
-}
-
 .services-box-title {
   font-size: 1.25rem;
   font-weight: 500;

@@ -26,7 +26,7 @@ const Footer = () => {
               <div>
                 <a href="https://www.google.com.ar/maps/place/Villa+Constituci%C3%B3n,+Santa+Fe/@-33.2353376,-60.3382398,14z/data=!4m5!3m4!1s0x95b76c4760812d55:0xbb412b3c67ec6e48!8m2!3d-33.227158!4d-60.3298704" target='_blank' rel="noreferrer"><HiMapPin className='network-img' /></a>
                 <span className="network-txt">
-                  Direccion: calle xxx - Oficina xxx
+                  Villa Constitución, Santa Fe. Argentina
                 </span>
               </div>
               <div>

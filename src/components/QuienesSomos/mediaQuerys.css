@@ -38,3 +38,10 @@
     padding: 1rem 2rem 0;
   }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .quienes-somos-img {
+    width: 50vw;
+    object-fit: cover;
+  }
+}
