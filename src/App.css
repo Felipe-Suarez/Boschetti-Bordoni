@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: var(--tertiary-color);
+  color: #fff;
+}
+
 body {
   font-size: 10px;
 }

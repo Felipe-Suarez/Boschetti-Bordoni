@@ -8,7 +8,7 @@
     {
       "img": "../imgs/Finanzas para Pymes.png",
       "title": "Finanzas para Pymes",
-      "text": "Flujos de fondos, gestión crediticia, evaluación de proyectos de inversión, asesoría en planificación financiera a corto y largo plazo, etc."
+      "text": "Flujos de fondos, gestión crediticia, evaluación de proyectos de inversión, asesoría en planificación financiera a corto y largo plazo, operaciones bursátiles."
     },
     {
       "img": "../imgs/Outsourcing management.png",
@@ -33,7 +33,7 @@
     {
       "img": "url",
       "title": "Mentoría para emprendedores",
-      "text": "Te ayudamos a medir los datos que genera tu negocio y te presentamos la información de manera simple para que puedas tomar decisiones que optimicen tus resultados"
+      "text": "Te brindamos el mejor acompañamiento para que puedas desarrollar y potenciar tu negocio sin importar en la etapa que te encuentres."
     }
   ],
   "valores": [
@@ -48,6 +48,18 @@
     {
       "title": "Solidaridad",
       "text": "Busca involucrarse con los proyectos de clientes, con sus esfuerzos y metas, equilibrar los intereses para el bien común. "
+    },
+    {
+      "title": "Sostenibilidad",
+      "text": "Una empresa sólo puede perdurar en el tiempo si es sostenible, es decir, si sabe aprovechar al máximo sus recursos, tanto tangibles como intangibles. Para que cualquier organización comprometida con la sostenibilidad es fundamental la implicación de sus grupos de interés en la comprensión de los impactos de sus acciones, decisiones y productos, entre otros.  "
+    },
+    {
+      "title": "Creación y difusión del conocimiento",
+      "text": "Se tiene el objetivo de ser cada día una auténtica comunidad de conocimiento y aprendizaje continuo, de la cual participan colaboradores, asociados y clientes, así como otras entidades y personas. A través de ese conocimiento compartido se genera valor, orientado siempre hacia la sostenibilidad. "
+    },
+    {
+      "title": "Carácter emprendedor",
+      "text": "Se pretende desarrollar formas innovadoras para asistir y acompañar a emprendedores y empresas. "
     }
   ],
   "nosotros": [
@@ -61,7 +73,7 @@
     },
     {
       "title": "Visión",
-      "text": "Aportar valores éticos y soluciones prácticas mediante el uso de datos para la integración de la sostenibilidad en los modelos de gestión de las empresas y organizaciones, mejorando sus rendimientos y fomentando la cooperación."
+      "text": "Aportar valores éticos y soluciones prácticas a fin de contribuir en la integración de la sostenibilidad de los modelos de gestión de las empresas y organizaciones, mejorando sus rendimientos y fomentando la cooperación."
     }
   ]
 }

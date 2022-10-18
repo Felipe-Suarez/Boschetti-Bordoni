@@ -40,6 +40,18 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .services-container {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 2130px) {
+  .services-container {
+    width: 50vw;
+  }
+}
+
 @media screen and (min-width: 688px) and (max-width: 1200px) {
   .services-box:last-child {
     height: 300px;

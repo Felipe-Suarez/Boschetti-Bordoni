@@ -10,12 +10,11 @@ const QuienesSomos = () => {
 
       <div className="img-container">
         <img src={quienesSomos} alt="imagen de quienes somos" className="quienes-somos-img" />
-
       </div>
 
       <div className="text-container">
         <span className="title-quienes-somos">¿Quíenes somos?</span>
-        <p className="text-quienes-somos"> Nos especializamos en el asesoramiento y acompañamiento del desarrollo empresarial de nuestros clientes. Tenemos como misión Mejorar la Calidad de Vida de Nuestros Clientes a través de la optimización del uso de las herramientas profesionales y la consolidación de un equipo de trabajo proactivo, capaz de anticipar los problemas y encontrar las soluciones adecuadas para cada situación. Actualmente nos encontramos trabajando en dos oficinas, una situada en la Ciudad Autónoma de Buenos Aires
+        <p className="text-quienes-somos"> Somos un grupo de profesionales de diversas disciplinas con amplia experiencia en el mercado laboral y nos dedicamos a asistir tanto a dueños de pymes como emprendimientos, que sientan la necesidad de profesionalizar e impulsar el desarrollo de sus negocios, estableciendo procesos y procedimientos que les permitan adaptarse de la mejor manera a las nuevas exigencias competitivas del mercado. Nos especializamos en abordar con una mirada estratégica y tecnológica las distintas dificultades que transitan nuestros clientes de forma personalizada, ofreciendo información de calidad para fundamentar la toma de decisiones y brindar soluciones a medida.
         </p>
       </div>
 

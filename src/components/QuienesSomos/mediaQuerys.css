@@ -1,28 +1,40 @@
-@media screen and (min-width: 1000px){
-    .quienes-somos{
-        flex-direction: row;
-    }
+@media screen and (min-width: 1000px) {
+  .quienes-somos {
+    flex-direction: row;
+    height: 60vh;
+  }
 
-    .quienes-somos-img{
-        width: 45vw;
+  .quienes-somos-img {
+    height: 60vh;
+  }
 
-    }
+  .text-container {
+    width: 45vw;
+    overflow-y: auto;
+  }
 
-    .text-container{
-        width: 45vw;
-        padding: 1rem 2rem 0;
-    }
+  .title-quienes-somos {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
 
-    .title-quienes-somos{
-        text-align: center;
-        font-size: 2.25rem;
-        line-height: 2rem;
-    }
+  .text-quienes-somos {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+}
 
-    .text-quienes-somos{
-        text-align: center;
-        font-size: 1.25rem;
-        line-height: 2rem;
-        margin-top: 1rem;
-    }
+@media screen and(min-width: 1000px) and (max-width: 1420px) {
+  .text-container {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  .text-container {
+    padding: 1rem 2rem 0;
+  }
 }

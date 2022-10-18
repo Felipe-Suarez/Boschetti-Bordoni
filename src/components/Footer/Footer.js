@@ -24,25 +24,25 @@ const Footer = () => {
           <div className="footer-info-container">
             <div className="mail-location-box">
               <div>
-                <a href="https://www.google.com.ar/maps/place/Chacarita,+CABA/@-34.5880643,-58.4616045,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!2sBuenos+Aires,+CABA!3b1!8m2!3d-34.6036844!4d-58.3815591!3m4!1s0x95bcb5fab4d7e7c7:0xc0677dc30b75b92b!8m2!3d-34.5859985!4d-58.4544363" target='_blank' rel="noreferrer"><HiMapPin className='network-img' /></a>
+                <a href="https://www.google.com.ar/maps/place/Villa+Constituci%C3%B3n,+Santa+Fe/@-33.2353376,-60.3382398,14z/data=!4m5!3m4!1s0x95b76c4760812d55:0xbb412b3c67ec6e48!8m2!3d-33.227158!4d-60.3298704" target='_blank' rel="noreferrer"><HiMapPin className='network-img' /></a>
                 <span className="network-txt">
                   Direccion: calle xxx - Oficina xxx
                 </span>
               </div>
               <div>
                 <IoMdMail className="network-img" />
-                <span className="network-txt">Mail: boschetti@gmail.com</span>
+                <span className="network-txt">Mail: boschettibordoni@gmail.com</span>
               </div>
             </div>
 
             <div className="fb-instagram-box">
               <div>
-                <a href="https://www.facebook.com/" target='_blank' rel="noreferrer"><BsFacebook className="network-img network-facebook" /></a>
-                <span className="network-txt">@boschettibordoni</span>
+                <a href="https://www.facebook.com/profile.php?id=100086208255264" target='_blank' rel="noreferrer"><BsFacebook className="network-img network-facebook" /></a>
+                <span className="network-txt">Consultora Boschetti Bordoni</span>
               </div>
               <div>
-                <a href="https://www.instagram.com/" target='_blank' rel="noreferrer"><AiFillInstagram className="network-img" /></a>
-                <span className="network-txt">@boschettibordoni</span>
+                <a href="https://www.instagram.com/boschettibordoniconsultoria/" target='_blank' rel="noreferrer"><AiFillInstagram className="network-img" /></a>
+                <span className="network-txt">boschettibordoniconsultoria</span>
               </div>
             </div>
           </div>
